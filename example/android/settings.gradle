@@ -1,0 +1,6 @@
+rootProject.name = 'NativeVariantsExample'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':nativevariants'
+project(':nativevariants').projectDir = new File(rootProject.projectDir, '../../android')
