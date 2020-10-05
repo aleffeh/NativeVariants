@@ -1,8 +1,8 @@
 import { NativeModules } from 'react-native';
 
-type NativeVariantsType = {
+interface NativeVariantsType {
   multiply(a: number, b: number): Promise<number>;
-};
+}
 
 const { NativeVariants } = NativeModules;
 
