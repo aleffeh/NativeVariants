@@ -1,4 +1,4 @@
-# native-variants
+# Native Variants
 
 Access native build variant resources
 
@@ -13,9 +13,7 @@ npm install native-variants
 ```js
 import NativeVariants from "native-variants";
 
-// ...
-
-const result = await NativeVariants.multiply(3, 7);
+//TODO: Update docs
 ```
 
 ## Contributing
