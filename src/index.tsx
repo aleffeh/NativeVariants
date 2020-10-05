@@ -1,7 +1,8 @@
 import { NativeModules } from 'react-native';
 
 interface NativeVariantsType {
-  multiply(a: number, b: number): Promise<number>;
+  getString(key: String, defaultValue: String): Promise<string>;
+  getColor(key: String, defaultValue: String): Promise<string>;
 }
 
 const { NativeVariants } = NativeModules;
